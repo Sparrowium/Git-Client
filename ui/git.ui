@@ -14,25 +14,23 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QWidget" name="LeftMenu" native="true">
+   <widget class="QWidget" name="">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>50</y>
-      <width>120</width>
-      <height>80</height>
+      <x>-10</x>
+      <y>0</y>
+      <width>811</width>
+      <height>601</height>
      </rect>
     </property>
-   </widget>
-   <widget class="QWidget" name="MainBody" native="true">
-    <property name="geometry">
-     <rect>
-      <x>390</x>
-      <y>140</y>
-      <width>120</width>
-      <height>80</height>
-     </rect>
-    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QWidget" name="leftMenu" native="true"/>
+     </item>
+     <item>
+      <widget class="QWidget" name="mainBody" native="true"/>
+     </item>
+    </layout>
    </widget>
   </widget>
  </widget>

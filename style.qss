@@ -1,0 +1,80 @@
+/* Define styles for the 'title_label' widget */
+
+#title_label {
+    font-size: 16px;
+    font-family: Monospace;
+}
+
+#title_icon {
+    width: 35px;
+    height: 35px;
+}
+
+#menu_btn (
+    border: none;
+)
+
+QStackedWidget {
+    background-color: #fff;
+}
+
+QListWidget
+#title_frame {
+    background-color: #fff;
+}
+
+#stackedwidget,
+#title_frame {
+    border: 1px solid #828790;
+}
+
+#stackedwidget {
+    border-left: none;
+}
+
+#title_frame {
+    border-bottom: none;
+}
+
+#listWidget {
+    font-size: 13px;
+    font-family: Monospace;
+}
+
+#listWidget::item,
+#listWidget_icon::item {
+    border: 0px;
+    padding: 5px;
+    margin: 2px 0;
+}
+
+#listWidget::item {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#listWidget_icon::item {
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    padding: 0px;
+}
+
+#listWidget::item:hover,
+#listWidget_icon::item:hover {
+    background-color: #e0e0e0;
+}
+
+#listWidget::item:selected,
+#listWidget_icon::item:selected {
+    background-color: #00aaff;
+}
+
+#listWidget::icon {
+    width: 16px;
+    height: 16px;
+}
+
+#listWidget_icon::icon {
+    width: 23px;
+    height: 23px;
+}
